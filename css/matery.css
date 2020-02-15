@@ -93,8 +93,8 @@ blockquote {
 }
 
 pre {
-    padding: 1.5rem !important;
-    margin: 1rem 0 !important;
+    padding: 0px 10px !important;
+    margin: 10px !important;
     background: #272822;
     overflow: auto;
     border-radius: 0.35rem;
@@ -147,6 +147,10 @@ cite {
 mark {
     background-color: #fcf8e3;
     padding: .2em;
+}
+
+figure {
+    margin: 10px 0px !important;
 }
 
 .card {
@@ -1004,7 +1008,7 @@ article .article-tags .chip {
 }
 
 #articleContent table, th, td {
-    padding: 12px 13px;
+    padding: 5px;
     border: 1px solid #dfe2e5;
 }
 
@@ -1015,10 +1019,12 @@ table tr:nth-child(2n), thead {
 #articleContent table th {
     background-color: #f2f2f2;
     min-width: 80px;
+	max-width: 760px;
 }
 
 #articleContent table td {
     min-width: 80px;
+	max-width: 760px;
 }
 
 #articleContent [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
